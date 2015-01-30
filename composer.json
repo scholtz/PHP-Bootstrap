@@ -1,0 +1,27 @@
+{
+    "name": "scholtz/bootstrap-php"
+  , "type": "library"
+  , "description": "PHP library for bootstrap"
+  , "keywords": ["Bootstrap", "PHP", "Server","Frontend"]
+  , "homepage": "https://github.com/scholtz/PHP-Bootstrap"
+  , "license": "GPL"
+  , "authors": [
+        {
+            "name": "Ludovit Scholtz"
+          , "email": "ludko2@gmail.com"
+          , "role": "Developer"
+        }
+    ]
+  , "support": {
+        "forum":  "https://github.com/scholtz/PHP-Bootstrap/issues"
+      , "issues": "https://github.com/scholtz/PHP-Bootstrap/issues"
+    }
+  , "autoload": {
+        "psr-0": {
+            "BT": "src"
+        }
+    }
+  , "require": {
+        "php": ">=5.0.0"
+    }
+}
