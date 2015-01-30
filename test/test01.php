@@ -4,7 +4,7 @@ require 'vendor/autoload.php';
 use \BT\Base;$load = new \BT\Base;
 
 // using basic require call
-require_once("../src/BT/Base.php");
+//require_once("../src/BT/Base.php");
 
 
 
