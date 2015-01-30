@@ -1,6 +1,13 @@
 <?php
+// using composer & autoload
+require 'vendor/autoload.php';
+use \BT\Base;$load = new \BT\Base;
 
+// using basic require call
 require_once("../src/BT/Base.php");
+
+
+
 
 $c = new \BT\ContainerFluid(new \BT\Row(new \BT\ColMd6("col1"),new \BT\ColMd6("col2")));
 
