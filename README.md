@@ -18,4 +18,4 @@ Using composer:
 curl -sS https://getcomposer.org/installer | php
 
 2) Install composer package
-php ~/composer.phar require scholtz/bootstrap-php
+php composer.phar require scholtz/bootstrap-php
